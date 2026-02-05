@@ -30,7 +30,7 @@ const About = () => {
                             </div>
                             <div className="p-4 bg-glass border border-glass-border rounded-xl flex-1 backdrop-blur-md">
                                 <Award className="text-secondary mb-2" />
-                                <h4 className="font-semibold text-white">Ijazah Program</h4>
+                                <h4 className="font-semibold text-white">Islamic Studies Program</h4>
                                 <p className="text-xs text-gray-400 mt-1">Authentic certification path</p>
                             </div>
                         </div>
