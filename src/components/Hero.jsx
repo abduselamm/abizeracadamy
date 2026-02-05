@@ -42,12 +42,12 @@ const Hero = () => {
                     transition={{ delay: 0.8 }}
                     className="mt-12 flex flex-col sm:flex-row justify-center gap-6 items-center"
                 >
-                    <button className="px-8 py-3 bg-secondary text-void font-bold rounded-full hover:bg-white hover:scale-105 transition-all shadow-[0_0_20px_rgba(212,175,55,0.4)] min-w-[180px]">
+                    <a href="#contact" className="px-8 py-3 bg-secondary text-void font-bold rounded-full hover:bg-white hover:scale-105 transition-all shadow-[0_0_20px_rgba(212,175,55,0.4)] min-w-[180px] text-center">
                         Start Learning
-                    </button>
-                    <button className="px-8 py-3 border border-glass-border bg-glass text-white rounded-full hover:bg-glass/20 hover:border-white/50 transition-all backdrop-blur-sm min-w-[180px]">
+                    </a>
+                    <a href="#curriculum" className="px-8 py-3 border border-glass-border bg-glass text-white rounded-full hover:bg-glass/20 hover:border-white/50 transition-all backdrop-blur-sm min-w-[180px] text-center">
                         View Curriculum
-                    </button>
+                    </a>
                 </motion.div>
             </div>
         </section>
